@@ -1,4 +1,11 @@
 
+
+eval "$(starship init zsh)"
+export EDITOR="nvim"
+export SUDO_EDITOR="$EDITOR"
+
+
+
 # History
 HISTSIZE=5000
 HISTFILE=~/.zsh_history
