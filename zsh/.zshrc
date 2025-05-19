@@ -28,7 +28,14 @@ compinit
 
 # Aliases
 alias ls='eza --color=always'
-alias la='ls -la'
+alias ll='ls -lh'
+alias la='ls -lAh'
+alias l='ls -CF'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
 alias c='clear'
 
 
@@ -43,6 +50,6 @@ function y() {
 }
 
 
-
+fastfetch
 
 eval "$(zoxide init zsh)"
