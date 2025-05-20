@@ -4,7 +4,9 @@ eval "$(starship init zsh)"
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 
-
+# zoxide
+eval "$(zoxide init zsh)"
+alias cd='z'
 
 # History
 HISTSIZE=5000
@@ -52,4 +54,4 @@ function y() {
 
 fastfetch
 
-eval "$(zoxide init zsh)"
+
